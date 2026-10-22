@@ -1,0 +1,1187 @@
+Dependencies for Project 'Location', Target 'Location': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\arm5_compiler
+F (startup_stm32f103xb.s)(0x6A239231)(--cpu Cortex-M3 --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xb.lst --xref -o location\startup_stm32f103xb.o --depend location\startup_stm32f103xb.d)
+F (../Core/Src/main.c)(0x6A239474)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\main.o --depend location\main.d)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+I (../Core/Inc/i2c.h)(0x6A1D225F)
+I (../Core/Inc/rtc.h)(0x6A23922F)
+I (../Core/Inc/spi.h)(0x6A223366)
+I (../Core/Inc/usart.h)(0x6A1E8E41)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdio.h)(0x672840A2)
+I (../Core/Inc/gpio.h)(0x6A1D2117)
+I (../common/com_debug.h)(0x6A22440A)
+I (C:\Keil_v5\ARM\arm5_compiler\include\string.h)(0x672840A2)
+I (../application/app_communication.h)(0x6A22437D)
+I (../interface/inf_ds3553.h)(0x6A1D3141)
+I (../interface/inf_gps.h)(0x6A238A0F)
+I (../interface/inf_nbiot.h)(0x6A238873)
+I (../middleware/cJSON/cJSON.h)(0x6641EEEE)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdlib.h)(0x672840A2)
+I (../interface/inf_lora.h)(0x6A2242AB)
+I (../middleware/E200/ebyte_core.h)(0x672843FA)
+I (../middleware/E200/ebyte_conf.h)(0x6A2240DD)
+I (../middleware/E200/ebyte_e220x.h)(0x672843FA)
+I (../middleware/E200/ebyte_callback.h)(0x672843FA)
+I (../middleware/E200/ebyte_port.h)(0x672843FA)
+I (../application/app_lowpower.h)(0x6A239282)
+F (../Core/Src/gpio.c)(0x6A223366)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\gpio.o --depend location\gpio.d)
+I (../Core/Inc/gpio.h)(0x6A1D2117)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Core/Src/i2c.c)(0x6A1D225F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\i2c.o --depend location\i2c.d)
+I (../Core/Inc/i2c.h)(0x6A1D225F)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Core/Src/rtc.c)(0x6A23922F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\rtc.o --depend location\rtc.d)
+I (../Core/Inc/rtc.h)(0x6A23922F)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Core/Src/spi.c)(0x6A223366)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\spi.o --depend location\spi.d)
+I (../Core/Inc/spi.h)(0x6A223366)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Core/Src/usart.c)(0x6A1E8E41)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\usart.o --depend location\usart.d)
+I (../Core/Inc/usart.h)(0x6A1E8E41)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdio.h)(0x672840A2)
+F (../Core/Src/stm32f1xx_it.c)(0x6A1EF351)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_it.o --depend location\stm32f1xx_it.d)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_it.h)(0x6A1E8E41)
+I (../interface/inf_gps.h)(0x6A238A0F)
+I (../Core/Inc/usart.h)(0x6A1E8E41)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdio.h)(0x672840A2)
+I (../common/com_debug.h)(0x6A22440A)
+I (C:\Keil_v5\ARM\arm5_compiler\include\string.h)(0x672840A2)
+I (../interface/inf_nbiot.h)(0x6A238873)
+F (../Core/Src/stm32f1xx_hal_msp.c)(0x6A1D2118)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_hal_msp.o --depend location\stm32f1xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x69DDB4E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_hal_gpio_ex.o --depend location\stm32f1xx_hal_gpio_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c)(0x69DDB4E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_hal_i2c.o --depend location\stm32f1xx_hal_i2c.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x69DDB4E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_hal.o --depend location\stm32f1xx_hal.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x69DDB4E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_hal_rcc.o --depend location\stm32f1xx_hal_rcc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x69DDB4E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_hal_rcc_ex.o --depend location\stm32f1xx_hal_rcc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x69DDB4E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_hal_gpio.o --depend location\stm32f1xx_hal_gpio.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x69DDB4E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_hal_dma.o --depend location\stm32f1xx_hal_dma.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x69DDB4E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_hal_cortex.o --depend location\stm32f1xx_hal_cortex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x69DDB4E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_hal_pwr.o --depend location\stm32f1xx_hal_pwr.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x69DDB4E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_hal_flash.o --depend location\stm32f1xx_hal_flash.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x69DDB4E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_hal_flash_ex.o --depend location\stm32f1xx_hal_flash_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x69DDB4E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_hal_exti.o --depend location\stm32f1xx_hal_exti.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c)(0x69DDB4E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_hal_rtc.o --depend location\stm32f1xx_hal_rtc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c)(0x69DDB4E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_hal_rtc_ex.o --depend location\stm32f1xx_hal_rtc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c)(0x69DDB4E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_hal_spi.o --depend location\stm32f1xx_hal_spi.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x69DDB4E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\stm32f1xx_hal_uart.o --depend location\stm32f1xx_hal_uart.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (../Core/Src/system_stm32f1xx.c)(0x69DDB4E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\system_stm32f1xx.o --depend location\system_stm32f1xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+F (..\common\com_debug.c)(0x6A1E95C1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\com_debug.o --depend location\com_debug.d)
+I (..\common\com_debug.h)(0x6A22440A)
+I (C:\Keil_v5\ARM\arm5_compiler\include\string.h)(0x672840A2)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdio.h)(0x672840A2)
+F (..\application\app_communication.c)(0x6A2244EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\app_communication.o --depend location\app_communication.d)
+I (..\application\app_communication.h)(0x6A22437D)
+I (../interface/inf_ds3553.h)(0x6A1D3141)
+I (../Core/Inc/i2c.h)(0x6A1D225F)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+I (../Core/Inc/gpio.h)(0x6A1D2117)
+I (../interface/inf_gps.h)(0x6A238A0F)
+I (../Core/Inc/usart.h)(0x6A1E8E41)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdio.h)(0x672840A2)
+I (../common/com_debug.h)(0x6A22440A)
+I (C:\Keil_v5\ARM\arm5_compiler\include\string.h)(0x672840A2)
+I (../interface/inf_nbiot.h)(0x6A238873)
+I (../middleware/cJSON/cJSON.h)(0x6641EEEE)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdlib.h)(0x672840A2)
+I (../interface/inf_lora.h)(0x6A2242AB)
+I (../middleware/E200/ebyte_core.h)(0x672843FA)
+I (../middleware/E200/ebyte_conf.h)(0x6A2240DD)
+I (../middleware/E200/ebyte_e220x.h)(0x672843FA)
+I (../middleware/E200/ebyte_callback.h)(0x672843FA)
+I (../middleware/E200/ebyte_port.h)(0x672843FA)
+F (..\application\app_lowpower.c)(0x6A2393EB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\app_lowpower.o --depend location\app_lowpower.d)
+I (..\application\app_lowpower.h)(0x6A239282)
+I (../interface/inf_gps.h)(0x6A238A0F)
+I (../Core/Inc/usart.h)(0x6A1E8E41)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdio.h)(0x672840A2)
+I (../common/com_debug.h)(0x6A22440A)
+I (C:\Keil_v5\ARM\arm5_compiler\include\string.h)(0x672840A2)
+I (../interface/inf_nbiot.h)(0x6A238873)
+I (../Core/Inc/rtc.h)(0x6A23922F)
+F (..\interface\inf_ds3553.c)(0x6A1E95A2)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\inf_ds3553.o --depend location\inf_ds3553.d)
+I (..\interface\inf_ds3553.h)(0x6A1D3141)
+I (../Core/Inc/i2c.h)(0x6A1D225F)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+I (../Core/Inc/gpio.h)(0x6A1D2117)
+F (..\interface\inf_gps.c)(0x6A238A2D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\inf_gps.o --depend location\inf_gps.d)
+I (..\interface\inf_gps.h)(0x6A238A0F)
+I (../Core/Inc/usart.h)(0x6A1E8E41)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdio.h)(0x672840A2)
+I (../common/com_debug.h)(0x6A22440A)
+I (C:\Keil_v5\ARM\arm5_compiler\include\string.h)(0x672840A2)
+F (..\interface\inf_nbiot.c)(0x6A239095)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\inf_nbiot.o --depend location\inf_nbiot.d)
+I (..\interface\inf_nbiot.h)(0x6A238873)
+I (../Core/Inc/usart.h)(0x6A1E8E41)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdio.h)(0x672840A2)
+I (../common/com_debug.h)(0x6A22440A)
+I (C:\Keil_v5\ARM\arm5_compiler\include\string.h)(0x672840A2)
+F (..\interface\inf_lora.c)(0x6A226BA1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\inf_lora.o --depend location\inf_lora.d)
+I (..\interface\inf_lora.h)(0x6A2242AB)
+I (../middleware/E200/ebyte_core.h)(0x672843FA)
+I (../middleware/E200/ebyte_conf.h)(0x6A2240DD)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+I (../middleware/E200/ebyte_e220x.h)(0x672843FA)
+I (../middleware/E200/ebyte_callback.h)(0x672843FA)
+I (../middleware/E200/ebyte_port.h)(0x672843FA)
+F (..\middleware\cJSON\cJSON.c)(0x6641EEEE)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\cjson.o --depend location\cjson.d)
+I (C:\Keil_v5\ARM\arm5_compiler\include\string.h)(0x672840A2)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdio.h)(0x672840A2)
+I (C:\Keil_v5\ARM\arm5_compiler\include\math.h)(0x672840A2)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdlib.h)(0x672840A2)
+I (C:\Keil_v5\ARM\arm5_compiler\include\limits.h)(0x672840A2)
+I (C:\Keil_v5\ARM\arm5_compiler\include\ctype.h)(0x672840A0)
+I (C:\Keil_v5\ARM\arm5_compiler\include\float.h)(0x672840A2)
+I (..\middleware\cJSON\cJSON.h)(0x6641EEEE)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+F (..\middleware\E200\ebyte_callback.c)(0x6A22416C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\ebyte_callback.o --depend location\ebyte_callback.d)
+I (..\middleware\E200\ebyte_callback.h)(0x672843FA)
+I (..\middleware\E200\ebyte_port.h)(0x672843FA)
+I (..\middleware\E200\ebyte_conf.h)(0x6A2240DD)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+I (../common/com_debug.h)(0x6A22440A)
+I (C:\Keil_v5\ARM\arm5_compiler\include\string.h)(0x672840A2)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdio.h)(0x672840A2)
+F (..\middleware\E200\ebyte_callback.h)(0x672843FA)()
+F (..\middleware\E200\ebyte_conf.h)(0x6A2240DD)()
+F (..\middleware\E200\ebyte_core.c)(0x672843FA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\ebyte_core.o --depend location\ebyte_core.d)
+I (..\middleware\E200\ebyte_core.h)(0x672843FA)
+I (..\middleware\E200\ebyte_conf.h)(0x6A2240DD)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+I (..\middleware\E200\ebyte_e220x.h)(0x672843FA)
+I (..\middleware\E200\ebyte_callback.h)(0x672843FA)
+I (..\middleware\E200\ebyte_port.h)(0x672843FA)
+F (..\middleware\E200\ebyte_core.h)(0x672843FA)()
+F (..\middleware\E200\ebyte_e220x.c)(0x6A226B7F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\ebyte_e220x.o --depend location\ebyte_e220x.d)
+I (..\middleware\E200\ebyte_e220x.h)(0x672843FA)
+I (..\middleware\E200\ebyte_conf.h)(0x6A2240DD)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+I (..\middleware\E200\ebyte_callback.h)(0x672843FA)
+I (..\middleware\E200\ebyte_port.h)(0x672843FA)
+F (..\middleware\E200\ebyte_e220x.h)(0x672843FA)()
+F (..\middleware\E200\ebyte_port.c)(0x6A224005)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../application -I ../common -I ../interface -I ../middleware/cJSON -I ../middleware/E200-I.\RTE\_Location-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o location\ebyte_port.o --depend location\ebyte_port.d)
+I (..\middleware\E200\ebyte_port.h)(0x672843FA)
+I (..\middleware\E200\ebyte_conf.h)(0x6A2240DD)
+I (../Core/Inc/main.h)(0x6A223367)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69DDB4E9)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A239230)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69DDB4E9)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69DDB4E3)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stdint.h)(0x672840A2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69DDB4E3)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69DDB4E9)
+I (C:\Keil_v5\ARM\arm5_compiler\include\stddef.h)(0x672840A2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69DDB4E9)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69DDB4E9)
+I (../Core/Inc/spi.h)(0x6A223366)
+F (..\middleware\E200\ebyte_port.h)(0x672843FA)()
